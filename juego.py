@@ -4,7 +4,7 @@ import random
 cartas = [1,2,3,4,5,6,7,10,10,10] 
 cantidad = [4,4,4,4,4,4,4,4,4,4]
 palos = ['Bastos', 'Copas', 'Oros', 'Espadas'] 
-valores = ['As', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+valores = ['As', '2', '3', '4', '5', '6', '7', '10', '10', '10']
 
 mazo = []
 
@@ -33,7 +33,7 @@ def mostrar_mano(mano):
     for carta in mano:
         resultado = resultado + str(carta)
         resultado = resultado + ", "
-    return resultado[:-2]
+    return resultado
 
 mano_jugador = []
 suma_jugador = 0
